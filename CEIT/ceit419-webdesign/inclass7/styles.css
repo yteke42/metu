@@ -1,0 +1,134 @@
+/*
+Hints: 
+1. Container:
+ - Use flexbox to organize child elements
+
+2. Header Section:
+ - Remove default list styles.
+ - Display menu items horizontally using flexbox.
+ - Align items to the right.
+ - Change link color and apply a hover effect to change the color to red.
+
+3. Content Section:
+    c1 Box:
+     - Include an ordered list starting at 4, in reverse order, with nested unordered lists.
+     - Set nested list bullets to square.
+    
+     c2 Box:
+     - Use the background image (tree.jpg) with a repeated pattern, as illustrated in the provided screenshot.
+     - Adjust the size of background image.
+
+    c3 Box:
+     - Create a list as illustrated in the provided screenshot.
+
+4. Footer Section:
+ - Style the list items as inline-block for horizontal alignment.
+
+*/
+
+/* DO NOT CHANGE FOLLOWING STYLES */
+
+.container {
+    width: 600px;
+}
+
+.header {
+    background-color: purple;
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header > ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: right;
+    align-items: center;
+}
+
+.header >ul > li{
+    margin-right: 20px;
+}
+
+.c1 {
+    background-color: cyan;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;    
+}
+
+.c2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: url("tree.jpg");
+    background-size: 20%;
+    background-repeat: repeat;
+  
+
+}
+
+.c3 {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    list-style-type:lower-roman;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    
+}
+
+.footer {
+    background-color: yellow;
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.content{
+    display: flex;
+}
+
+#ol1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;  
+}
+
+#square-li{
+    list-style-type: square;
+    
+}
+
+#treeimg{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.c3 > li {
+    margin-left: 10%;
+}
+
+
+.footer > ul{
+    display: flex;
+    list-style-type: none;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer >ul > li{
+    margin-right: 20px;
+}

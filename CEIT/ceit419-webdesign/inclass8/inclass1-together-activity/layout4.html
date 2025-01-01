@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Class Demo 4</title>
+
+    <style>
+        .wrapper>div {
+            font-family: sans-serif;
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .wrapper {
+            width: 80%;
+            height: 700px;
+            margin: 0 auto;
+            background-color: azure;
+
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            grid-template-rows: 1fr 5fr 1fr;
+            gap: 5px;
+        }
+
+        .header {
+            background-color: #FF9B6D;
+            padding: 15px;
+
+            grid-column: 1/-1;
+            grid-row: 1;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 6fr;
+            grid-row: 1;
+        }
+
+        .logo {
+            background-color: #FFD37C;
+            text-align: center;
+            padding: 30px 0px;
+            grid-column: 1;
+            
+        }
+
+        .nav {
+            background-color: #FFD37C;
+            padding: 30px;
+            grid-column: 2/-1;
+        }
+
+        .aside {
+            background-color: #ceea41;
+            padding: 15px;
+            grid-column: 1;
+            grid-row: 2/-1;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .news {
+            background-color: #a9ba4f;
+            padding: 30px 0px;
+            text-align: center;
+            grid-row: 1;
+        }
+
+        .events {
+            background-color: #a9ba4f;
+            padding: 30px 0px;
+            text-align: center;
+            grid-row: 2;
+
+        }
+
+        .contact {
+            background-color: #a9ba4f;
+            padding: 30px 0px;
+            text-align: center;
+            grid-row: 3;
+
+        }
+
+        .main {
+            background-color: #7DBCA9;
+            padding: 50px;
+
+            grid-column: 2;
+            grid-row: 2;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .first {
+            background-color: #8de1ca;
+            padding: 30px;
+            grid-column: 1;
+            
+        }
+
+        .second {
+            background-color: #8de1ca;
+            padding: 30px;
+            grid-column: 2;
+
+        }
+
+        .third {
+            background-color: #8de1ca;
+            padding: 30px;
+            grid-column: 3;
+        }
+
+        .footer {
+            padding: 15px;
+            background-color: #87CEEB;
+
+            grid-column: 2;
+            grid-row: 3;
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            gap: 10px;
+        }
+
+        .copy {
+            background-color: #8a9dc7;
+            padding: 30px;
+        }
+
+        .logo2 {
+            background-color: #8a9dc7;
+            text-align: center;
+            padding: 30px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="text-align:center;">
+        <p>Desired layout:</p>
+        <p><img width="500" src="images/layout4.png" alt=""></p>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">Logo</div>
+            <div class="nav">Navigation</div>
+        </div>
+
+        <div class="aside">
+            <div class="news">News</div>
+            <div class="events">Events</div>
+            <div class="contact">Contact</div>
+        </div>
+
+        <div class="main">
+            <div class="first">First</div>
+            <div class="second">Second</div>
+            <div class="third">Third</div>
+        </div>
+
+        <div class="footer">
+            <div class="copy">&#169;2020 Programming for Designers</div>
+            <div class="logo2">Logo</div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

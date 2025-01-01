@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+/* Header Styling */
+.header {
+    background-color: #ffb84d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+}
+
+section > div {
+    padding: 20px;
+}
+
+.food-description {
+    background-color: #f7e7ce;
+    display: flex;
+}
+
+.ingredients {
+    background-color: #f7dfb9;
+    
+}
+
+.instructions {
+    background-color: #ffd88e;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #ffbc58;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* Image Styling */
+header h1 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Add a background image */
+body {
+    background-image: url('pizza.jpg'); /* Replace with your file */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Flexbox Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, section, footer {
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons (Extra Styling for Creativity) */
+button {
+    background-color: #ff9933;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+#pizza-image {
+    width: 30%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff715;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #e68a00;
+}
+
+.instructions > ol > li, .ingredients > ul > li {
+    margin-top: 5px;
+}
+

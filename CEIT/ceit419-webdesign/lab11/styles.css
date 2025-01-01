@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  gap: 5px;
+}
+
+.menu-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #23d6f5; 
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.menu-item:nth-child(odd){
+  background-color: #23d6f5; 
+
+}
+.menu-item:nth-child(even){
+  background-color: #f54323; 
+
+}
+
+.menu-item:hover {
+  background-color: #ffb74d;
+  transform: translateY(-5px); 
+}
+
+.menu-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: blue; 
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover::before {
+  top: 100%; 
+  background-color: darkorange; 
+}
+
+.moving-square {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  animation: slide 3s infinite; 
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0%; 
+  }
+}
+.menu-item:nth-child(odd)::before {
+  background-color: blue; 
+}
+
+.menu-item:nth-child(even)::before {
+  background-color: orange; 
+}
+
+.menu-item:nth-child(odd):hover::before {
+  background-color: orange; 
+}
+
+.menu-item:nth-child(even):hover::before {
+  background-color: blue; 
+}

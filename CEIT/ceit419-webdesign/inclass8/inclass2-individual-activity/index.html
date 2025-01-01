@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>CEIT 419 - CSS Grids Lab Assignment</h2>
+    <p>Please read the task descriptions carefully. You should work ONLY on the CSS file. <br>Please do not make any
+        changes
+        on the html file.</p>
+    <section class="task1">
+        <h3>Task 1</h3>
+        <p>In this task, you should create a grid into which the four child elements will auto-place. The grid should
+            have three columns sharing the available space equally and a 20-pixel gap between the column and row tracks.
+            After that, try adding more child containers inside the parent container with the class of grid and see how
+            they behave by default.
+        </p>
+        <p>Your final result should look like the image below:</p>
+        <img width="650px"
+            src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task1.png" alt="">
+        <p>Your current output:</p>
+        <div class="grid">
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+            <div>Four</div>
+        </div>
+
+    </section>
+    <section class="task2">
+        <h3>Task 2</h3>
+        <p>In this task, we already have a grid defined. By editing the CSS rules for the two child elements, cause them
+            to span over several grid tracks each.
+        </p>
+        <p> The second item should overlay the first as in the image below:</p>
+        <img width="650px"
+            src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task2.png" alt="">
+        <p>Your current output:</p>
+        <div class="grid">
+            <div class="item1">One</div>
+            <div class="item2">Two</div>
+        </div>
+
+    </section>
+
+    <section class="task3">
+        <h3>Task 3</h3>
+        <p>In this task, there are four direct children in this grid. The starting point has them displayed using
+            auto-placement.
+        </p>
+        <p> Use the grid-area and grid-template-areas properties to lay the items out as shown in the image below:</p>
+        <img width="650px"
+            src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task3.png" alt="">
+        <p>Your current output:</p>
+        <div class="grid">
+            <div class="one">One</div>
+            <div class="two">Two</div>
+            <div class="three">Three</div>
+            <div class="four">Four</div>
+        </div>
+
+    </section>
+
+
+    <section class="task4">
+        <h3>Task 4</h3>
+        <p>In this task, you will need to use both grid layout and flexbox to recreate the example as seen in the image
+            below. The gap between the column and row tracks should be 10px. You do not need to make any changes to the
+            HTML in order to achieve this.
+        </p>
+        <img width="650px"
+            src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task4.png" alt="">
+        <p>Your current output:</p>
+        <div class="container">
+            <div class="card">
+                <img src="https://mdn.github.io/css-examples/learn/tasks/grid/balloons1.jpg" alt="a single red balloon">
+                <ul class="tags">
+                    <li>balloon</li>
+                    <li>red</li>
+                    <li>sky</li>
+                    <li>blue</li>
+                    <li>Hot air balloon</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://mdn.github.io/css-examples/learn/tasks/grid/balloons2.jpg"
+                    alt="balloons over some houses">
+                <ul class="tags">
+                    <li>balloons</li>
+                    <li>houses</li>
+                    <li>train</li>
+                    <li>harborside</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://mdn.github.io/css-examples/learn/tasks/grid/balloons3.jpg"
+                    alt="close-up of balloons inflating">
+                <ul class="tags">
+                    <li>balloons</li>
+                    <li>inflating</li>
+                    <li>green</li>
+                    <li>blue</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://mdn.github.io/css-examples/learn/tasks/grid/balloons4.jpg" alt="a balloon in the sun">
+                <ul class="tags">
+                    <li>balloon</li>
+                    <li>sun</li>
+                    <li>sky</li>
+                    <li>summer</li>
+                    <li>bright</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

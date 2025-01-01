@@ -1,0 +1,98 @@
+/*DO NOT DELETE THE COMMENTS, SUBMISSIONS WITHOUT COMMENTS ARE NOT ACCEPTED */
+
+/*1. Without changing anything in the html, add the following styles using advanced selectors*/
+
+
+/*2. Give the header element a background color */
+header {
+    background-color: rgb(120, 120, 211);
+    align-items: center;
+
+}
+
+header h1{
+    padding-left: 1%;
+}
+
+/*3. Center everything in the header and footer */
+footer {
+    align-items: center;
+}
+
+/*4. All text to Helvetica */
+p {
+    font-family: Helvetica;
+}
+
+/*5. All links default color is gray*/
+
+a {
+    color: grey;
+}
+
+/*6. All links on hover color red*/
+
+a:hover {
+    color: red;
+}
+
+/*7. All Links visted color black*/
+
+a:visited {
+    color: black;
+}
+
+/*8. Footer disclaimer text to be .5 em*/
+
+footer .disclaimer {
+    font-size: 0.5em;
+}
+
+/*9. Remove bullet points from header navigation links */
+
+header nav ul {
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+
+header nav ul li{
+    margin-bottom: 1%;
+}
+
+/*10. All Post's Comment Links Italicized, Blue and Remove the Underline */
+
+.post a {
+    font-style: italic;
+    color: blue;
+    text-decoration: none;
+}
+
+/*11. All Post's Comment Links Show Underline on Hover */
+
+.post a:hover{
+
+    text-decoration: underline;
+}
+
+
+/*12. All Post's Author's Links Bold and Orange, with no Underline */
+
+.post h3 a {
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+}
+
+/*13. Article Paragraph Text should have line height of 200% */
+
+article p {
+
+    line-height: 200%;
+}
+
+
+
+nav a{
+    color: black;
+
+}

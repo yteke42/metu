@@ -1,0 +1,21 @@
+5 sections
+use grids
+flexbox for smaller sections
+use float for alignment
+Use at least once:
+	• Type/element selector
+	• Id selector
+	• Attribute selector
+	• nth-of-type or nthof-child
+	• first-child or lastchild
+	• + or ~ selector
+	• > selector
+Responsive design (images, layout, navigation adapts)
+Use at least 4 of the semantic elements(<main>, <header>, <section>, <aside>, <footer>, <nav>, or <article>.)
+At least three images other than icons
+At least one table with three cells(responsive at least two different viewports)
+A complete web form, at least has three input fields and one button
+At least two diff background colors, at least one of them used in three diff locations
+A spesific color palette is used. ******
+At least one CSS animations and transition ( one of them ) 
+Navigation and links styles properly, allow reader to move through content. (Unvisited-visited links styling)

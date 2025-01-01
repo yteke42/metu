@@ -1,0 +1,153 @@
+/*DO NOT DELETE THE COMMENTS, SUBMISSIONS WITHOUT COMMENTS ARE NOT ACCEPTED */
+
+/*FOR MODULE 3 LAB GOTO THE LINE 74. THE FIRST 13 ITEMS ARE THE SOLUTIONS FOR THE PREVIOUS LAB. */
+
+
+
+/*1. Without changing anything in the html, add the following styles using advanced selectors*/
+
+
+/*2. Give the header element a background color */
+header{
+    background-color: whitesmoke;
+}
+
+/*3. Center everything in the header and footer */
+header, footer{
+    text-align: center;
+}
+
+
+/*4. All text to Helvetica */
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+/*5. All links default color is gray*/
+a{
+    color:gray;
+}
+
+/*6. All links on hover color red*/
+a:hover{
+    color:red;
+}
+
+/*7. All Links visted color black*/
+a:visited{
+    color:black;
+}
+/*8. Footer disclaimer text to be .5 em*/
+footer{
+    font-size: .5em;
+}
+
+/*9. Remove bullet points from header navigation links */
+header ul li {
+    list-style: none;
+}
+
+/*10. All Post's Comment Links Italicized, Blue and Remove the Underline */
+article p a[href="#comments"] {
+    font-style: italic;
+    color: blue;
+    text-decoration: none;
+}
+
+/*11. All Post's Comment Links Show Underline on Hover */
+article p a[href="#comments"]:hover {
+    text-decoration: underline;
+}
+
+/*12. All Post's Author's Links (that is not inside h3) should be Bold and Orange, with no Underline */
+article p a{
+    font-weight: bold;
+    color:orange;
+    text-decoration: none;
+}
+
+/*13. Article Paragraph Text should have line height of 200% */
+article p {
+    line-height: 200%;
+}
+
+/**********************************/
+/*M3 LAB STARTS HERE*/
+
+/* 14. Make every second Article to have 
+   margins of 10px on the left and right, 20px on the top and botthom
+    padding of 10px on all edges,
+    and dashed border of gray with width of 3px
+*/
+article:nth-of-type(even) {
+    margin: 20px 10px; 
+    padding: 10px; 
+    border: 3px dashed gray; 
+}
+
+
+/* 15. Make every second Article after the 1st one to have 
+    margins of 10px on the left and right, 20px on the top and botthom
+    padding of 10px on all edges,
+    background color of whitesmoke
+*/
+article:nth-of-type(n+2):nth-of-type(odd) {
+    margin: 20px 10px;
+    padding: 10px; 
+    background-color: whitesmoke; 
+}
+
+
+/* 16. Among all images next to a paragraph, every second of them should have rounded corners (10%)*/
+p + img:nth-of-type(odd) {
+    border-radius: 10%; 
+}
+
+
+/* 17. The First Image in every Article should have a shadow*/
+article img:first-of-type {
+    box-shadow: 2px 2px 10px rgba(27, 27, 27, 0.5); 
+}
+
+
+/* 18. The sections inside Top Cats (check the bottom of the HTML file) should have a 
+    Golden Background if it is not next to h2.
+    Padding of 0.8em*/
+#top-cats section {
+    background-color: gold; 
+    padding: 0.8em; 
+}
+
+#top-cats h2 + section {
+    background-color: transparent; /* Remove background if next to h2 */
+}
+
+    
+
+/* 19. The 1st section inside Top Cats should have a gray background and left padding of 0.8em */
+#top-cats section:first-of-type {
+    background-color: gray; 
+    padding-left: 0.8em; 
+}
+
+
+/* 20. Anchor tags whose href is not #comments should be italized.*/
+a:not([href="#comments"]) {
+    font-style: italic; /* Italicize the text */
+}
+
+
+/* 21. First image in each section should be transparent [opacity:0.5]*/
+section img:first-of-type {
+    opacity: 0.5; 
+}
+
+
+
+/* 22. Paragraphs that is the only of its type within a parent should have padding of 10px, background of whitesmoke, and a green border with 2px width*/
+
+p:only-of-type {
+    padding: 10px; /* Add padding of 10px */
+    background-color: whitesmoke; /* Set background to whitesmoke */
+    border: 2px solid green; /* Set green border with 2px width */
+}

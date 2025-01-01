@@ -1,0 +1,65 @@
+"Merhaba ve bu bir kullanıcı testi, öncelikle katıldığınız için teşekkür ederim. Benim adım [Adınız], ve bu oturum boyunca size rehberlik edeceğim."
+Amacı:
+
+"Bu testin amacı, iklim ve tarım hakkında olan bir web sitesinin kullanılabilirliğini ve içeriğini değerlendirmektir. Sitenin ihtiyaçlarınızı ne kadar iyi karşıladığını ve nasıl iyileştirebileceğimizi anlamak istiyoruz."
+Gizlilik:
+
+"Geri bildiriminiz bizim için çok önemlidir. Lütfen bu oturumun analiz amaçlı kaydedileceğini, ancak tüm yanıtlarınızın gizli kalacağını ve kimliğinizin sonuçlarla bağlantılı olmayacağını unutmayın."
+Prosedür:
+
+"Bu oturum sırasında, sizden web sitesinde bir dizi görevi tamamlamanızı isteyeceğim. Bunu yaptiktan sonra lütfen düşündüklerinizi sesli olarak ifade edin. Bu ifade, neye baktığınızı, ne yapmaya çalıştığınızı ve aklınıza gelen her türlü düşünce veya soruyu paylaşmanız anlamına gelebilir. Doğru ya da yanlış cevaplar yoktur; biz web sitesini test ediyoruz, sizi değil."
+Dürüstlüğü Teşvik Etme:
+
+"Lütfen geri bildiriminizde dürüst olun. Eğer bir şey kafa karıştırıcı, zor veya sinir bozucuysa, bunu duymak istiyoruz."
+Rahatlık ve Mola:
+
+"Eğer herhangi bir zamanda rahatsız hissederseniz veya bir mola vermeniz gerekirse lütfen bana bildirin. Testi istediğiniz zaman durdurmakta özgürsünüz."
+
+
+
+
+
+//Görevler:
+//Görev 1: Ana Sayfada Gezinme ve Hesap Oluşturma
+
+Görev: Ana sayfayı keşfetmek için birkaç dakikanızı ayırın. İlk izlenimlerinizi anlatın ve “Oturum Aç” düğmesini bulmaya çalışın ve bulduğunuzda tıklayın. Tıkladıktan sonra bir hesap oluşturmayı deneyin.
+
+Sorular:
+Ana sayfa düzenine ilişkin ilk izlenimleriniz neler?
+Düğmeyi bulmak ne kadar kolaydı? Düğmeyi bulmaya çalışırken herhangi bir zorlukla veya kafa karışıklığıyla karşılaştınız mı?
+“Giriş Yap” butonuna tıkladıktan sonra hesap oluşturma süreci ne kadar kolay oldu? Hesap oluşturmaya yönelik talimatlar açık ve takip edilmesi kolay mıydı?
+1'den 5'e kadar bir ölçekte (1 çok zor ve 5 çok kolay), hesap oluşturma sürecinin kolaylığını nasıl değerlendirirsiniz?
+Ana sayfada gezinme ve hesap oluşturma sürecini iyileştirmek için ne gibi önerileriniz var?
+
+//Görev 2: Bilgi Bulma
+
+Görev: "Haberler" bölümüne gidin ve "Dünya, en sıcak aylarını yaşıyor ve maalesef bu sadece bir başlangıç..." başlıklı makaleyi bulun. Makalenin içeriğine bir göz atın.
+Sorular:
+Makaleyi bulmak ne kadar kolaydı? 1'den 5'e kadar bir ölçekte (1 çok zor ve 5 çok kolay), makaleyi bulma kolaylığını nasıl değerlendirirsiniz?
+Makaleyi ararken herhangi bir engelle veya kafa karıştırıcı unsurla karşılaştınız mı?
+Web sitesinin düzeni ve tasarımı makaleyi bulmanızda yardımcı oldu mu?
+Makaledeki bilgiler açıkça sunuldu mu? Makale beklediğiniz ayrıntıları sağladı mı?
+"Haberler" bölümündeki yazıların gezinmesi ve sunumunun iyileştirilmesi için ne gibi önerileriniz var?
+
+//Görev 3: Kaynaklara Erişim
+//Amaç: Sağlanan kaynaklara erişme ve bunları anlama kolaylığını değerlendirmek.
+Görev: "Dokümanlar" bölümünü bulun ve "İklim Değişikliğine Uyum İçin Tarımsal Uygulamalar" kılavuzunu bulun. Kılavuzu indirin veya görüntüleyin ve biraz okuyun.
+Sorular:
+Dokumanlar bölümünü bulmak ne kadar kolay oldu? “Dokümanlar” bölümünde “İklim Rengine Uyum İçin Tarımsal Uygulamalar” ile ilgili rehberi bulmak ne kadar kolaydı?
+Rehberi ararken ve rehbere ulaşırken herhangi bir engelle ya da kafa karıştırıcı unsurla karşılaştınız mı?
+1'den 5'e kadar bir ölçekte (1 çok zor ve 5 çok kolay), kaynağı bulma ve erişme kolaylığını nasıl değerlendirirsiniz?
+“İklim Değişikliğine Uyum İçin Tarımsal Uygulamalar” rehberi açık bir şekilde sunuldu mu? Rehber beklediğiniz bilgiyi sağladı mı?
+"Dokümanlar" bölümündeki kaynakların gezinmesi ve sunumunun iyileştirilmesi için ne gibi önerileriniz var?
+
+//Görev 4: İletişim Bilgileri
+//Hedef: Desteğin ve iletişim seçeneklerinin erişilebilirliğini test edin.
+
+Görev: Web sitesinin iletişim bilgilerini bulun ve istediğiniz konu hakkında daha fazla bilgi isteyen bir mesaj taslağı hazırlayın.
+Sorular:
+Web sitesinde iletişim bilgilerini bulmak ne kadar kolaydı? İletişim bilgilerini ararken herhangi bir engelle veya kafa karıştırıcı unsurla karşılaştınız mı?
+Sunulan iletişim seçenekleri (sosyal medya hesapları veya e-posta) ihtiyaçlarınız için yeterli miydi?
+Sunulan iletişim seçenekleri aracılığıyla size ulaşıp yanıt alabileceğinizden emin miydiniz?
+“Bize Ulaşın” bölümünde mesaj oluşturabileceğiniz bir seçenek veya alan var mı, yoksa bu sizin için bir dezavantaj mı?
+Web sitesinde iletişim seçeneklerini ve destek erişilebilirliğini geliştirmek için ne gibi önerileriniz var?
+
+

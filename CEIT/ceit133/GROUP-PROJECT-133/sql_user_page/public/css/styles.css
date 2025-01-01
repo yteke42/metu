@@ -1,0 +1,85 @@
+body {
+
+    text-align: center;
+    margin-left: auto;
+    background-color: #c0d3bc;
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16pt;
+    letter-spacing: 0.1cm;
+    overflow: hidden;
+}
+
+.Agenda_main {
+    margin-top: 1%;
+    height: 72%;
+    width: 75%;
+    z-index: -1;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding-left: 14%;
+    margin-top: 20%;
+    z-index: auto;
+    position: absolute;
+}
+
+.buttonlul {
+    background-color: #70af64;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.buttonlul:hover {
+    background-color: #368526;
+    animation-name: button-hover;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+@keyframes button-hover {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+        width: 120%;
+        height: 120%;
+    }
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 12%;
+}
+
+
+
+/* Login Page */
+
+.login-box {
+    text-align: left;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+    height: 500px;
+    background-color: #368526;
+}
+
+.note-div {
+    position: absolute;
+    margin: 20% 0% 0% 40%;
+}
+
+.form-control {
+    margin-top: 10%;
+}
+
+.form-label {
+    padding-top: 0;
+}

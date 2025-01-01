@@ -1,0 +1,57 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(47, 47, 151);
+}
+
+h2 {
+    color:grey;
+}
+article h1 {
+    color: blue;
+}
+
+article h2 {
+    color:rgb(101, 101, 203);
+}
+nav ul li {
+    list-style: none;
+    text-align: right;
+    text-decoration: underline;
+    color: red;
+}
+
+nav a{
+    color:crimson;
+}
+
+nav a:hover {
+    color: chartreuse;
+}
+
+section > h3 {
+    color: green;
+    font-weight: bold;
+}
+
+h3 + p {
+    color:rgb(30, 137, 30);
+}
+
+.metu{
+    color: red;
+    font-style: italic;
+}
+
+#act{
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+section {
+    padding-left: 2%;
+    padding-right: 1%;
+}

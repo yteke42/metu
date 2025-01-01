@@ -1,0 +1,129 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+
+  
+  .task1 {
+    width:650px;
+
+  }
+
+  .task1 .grid > * {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+  }
+
+  .task1 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+
+  .task2 {
+    width:650px;
+  }
+
+  .task2 .grid > * {
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+  }
+
+  .task2 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+  }
+
+  .task2 .item1 {
+    background-color: rgba(74,102,112,.7);
+    border: 5px solid rgba(74,102,112,1);
+
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
+  .task2 .item2 {
+    background-color: rgba(214,162,173,.7);
+    border: 5px solid rgba(214,162,173,1);
+
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
+
+  .task3 {
+    width:650px;
+  }
+
+  .task3 .grid > * {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+  }
+
+
+  .task3 .grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+
+  .task3 .grid .one{ 
+    grid-column: 1/-1;
+  }
+
+  .task3 .grid .four{ 
+    grid-column: 2/-1;
+  }
+
+  .task4 {
+    width:650px;
+  }
+  
+  .task4 .container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .task4 .card {
+    display: grid;
+    grid-template-rows: 200px min-content;
+  }
+
+  .task4 .card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .task4 .tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: centerw;
+  }
+
+  .task4 .tags > * {
+    background-color: #999;
+    color: #fff;
+    padding: 0.2em 0.8em;
+    border-radius: 0.2em;
+    font-size: 80%;
+    margin: 5px;
+  }
