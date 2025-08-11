@@ -1,0 +1,39 @@
+Key Concepts:
+
+RNN Basics:
+
+RNNs process sequential data using memory (loops).
+Important for time series analysis, language modeling, etc.
+Unrolling Neurons:
+
+Visualizes RNNs over time.
+Each neuron takes input and previous hidden state, producing output and new hidden state.
+PyTorch Implementation:
+
+Set up with nn.RNN.
+Define input size, hidden layer size, and number of layers.
+RNN Architectures:
+
+Sequence-to-Sequence: For tasks like speech recognition.
+Sequence-to-Vector: For classification tasks (e.g., text classification).
+Vector-to-Sequence: Generates sequences from a single input (e.g., text generation).
+Encoder-Decoder: Used in machine translation.
+Model Example:
+
+Built a sequence-to-vector RNN for electricity consumption prediction.
+python
+Kodu kopyala
+import torch
+import torch.nn as nn
+
+class RNNModel(nn.Module):
+    def __init__(self):
+        super(RNNModel, self).__init__()
+        self.rnn = nn.RNN(input_size=1, hidden_size=32, num_layers=2, batch_first=True)
+        self.linear = nn.Linear(in_features=32, out_features=1)
+    
+    def forward(self, x):
+        h0 = torch.zeros(2, x.size(0), 32)  # Initial hidden state
+        out, _ = self.rnn(x, h0)
+        out = self.linear(out[:, -1, :])  # Get last output
+        return out
